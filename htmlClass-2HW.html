@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      input::placeholder {
+        color: green;
+      }
+
+      div {
+        display: inline;
+      }
+    </style>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="icon.jpg" />
+
+    <style>
+      .fa:hover {
+        opacity: 0.9;
+      }
+
+      .fa-instagram {
+        background-color: pink;
+        color: white;
+      }
+
+      .fa-facebook {
+        background-color: blue;
+        color: white;
+      }
+
+      .fa-twitter {
+        background-color: blue;
+        color: white;
+      }
+
+      .fa {
+        padding: 20px;
+        font-size: 40px;
+        width: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Code-help</h1>
+    <br />
+    <h2>Contact Us Form</h2>
+    <br />
+
+    <table>
+      <tr>
+        <td>
+          <label for="username">Name</label>
+        </td>
+        <td>
+          <input type="text" name="username" placeholder="Enter Your Name" />
+        </td>
+      </tr>
+
+      <br />
+
+      <tr>
+        <td>
+          <label for="email">Email</label>
+        </td>
+        <td>
+          <input type="text" name="email" placeholder="Enter Your Email" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="contact">Contact Number</label>
+        </td>
+        <td>
+          <input type="tel" name="contact" placeholder="-3" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="gender select">Gender</label>
+        </td>
+        <td>
+          <select name="genders" id="gender select">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="dateofbirth">Date Of Birth</label>
+        </td>
+        <td>
+          <input type="date" name="dateofbirth" placeholder="mm/dd/yyyy" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="ratings">Rating</label>
+        </td>
+        <td>
+          <div>
+            <input type="radio" id="one" name="ratings" value="1" checked />
+            <label for="one">1</label>
+          </div>
+        </td>
+        <td>
+          <div>
+            <input type="radio" id="two" name="ratings" value="2" checked />
+            <label for="two">2</label>
+          </div>
+        </td>
+        <td>
+          <div>
+            <input type="radio" id="three" name="ratings" value="3" checked />
+            <label for="three">3</label>
+          </div>
+        </td>
+        <td>
+          <div>
+            <input type="radio" id="four" name="ratings" value="4" checked />
+            <label for="four">4</label>
+          </div>
+        </td>
+        <td>
+          <div>
+            <input type="radio" id="five" name="ratings" value="5" checked />
+            <label for="five">5</label>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Enter your Message</p>
+        </td>
+
+        <td>
+          <fieldset>
+            <div>
+              <input
+                type="text"
+                name="message"
+                placeholder="Enter your message"
+              />
+            </div>
+          </fieldset>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <button>Send</button>
+          <button>Reset</button>
+          <br />
+        </td>
+      </tr>
+
+      <!-- <tr>
+        <td>
+          <center>
+            add font awesome icons -->
+      <!-- <a href="#" class="fa fa-instagram"></a> -->
+      <!-- <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </center>
+        </td>
+      </tr> -->
+    </table>
+  </body>
+</html>
