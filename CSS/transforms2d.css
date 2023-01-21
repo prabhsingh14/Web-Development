@@ -1,0 +1,12 @@
+.box {
+  background-color: aqua;
+  /* transform: translate(10px, 20px); */
+  /* transform: rotate(-45deg); */
+  /* +45 for CW and -45 for ACW */
+
+  margin: 200px;
+  transform: scale(2, 5);
+  /* scale --> to zoom */
+  transform: skew(45deg);
+  /* skew --> to tilt */
+}
