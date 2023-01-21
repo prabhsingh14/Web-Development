@@ -1,0 +1,12 @@
+.box {
+  max-height: 100px;
+  border: 1px solid red;
+  overflow: scroll;
+}
+
+.test {
+  min-height: 10px;
+  border: 1px solid red;
+  /* using min-height, if the content is within its size, then the box size doesn't changes but if the content exceeds the size, then the box size
+  increases automatically */
+}
