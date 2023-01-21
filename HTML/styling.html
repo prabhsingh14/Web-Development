@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      p {
+        text-shadow: 1px 1px 2px pink;
+        background-color: red;
+        /* above property doesn't have any clash, so yeh aayegi hi aayegi */
+      }
+    </style>
+
+    <!-- To link HTML and CSS file use link tag -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- give path of css file in CSS -->
+  </head>
+  <body>
+    <!-- adding styling in HTML -->
+
+    <!-- Method-1 -> Inline CSS -->
+    <p style="font-style: italic">Trying to do inline css</p>
+
+    <!-- Method-2 Internal CSS -> using style tag -->
+    <p>Testing internal CSS</p>
+    <!-- Above p tag of method-1 would also get changed, so comment it to test method-2 -->
+
+    <!-- Method-3 External CSS -> creating a separate CSS file, it will affect the present HTML file -->
+    <h1>Test heading for external css</h1>
+  </body>
+</html>
