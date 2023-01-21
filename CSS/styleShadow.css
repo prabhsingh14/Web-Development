@@ -1,0 +1,19 @@
+h1 {
+  text-shadow: 3px 3px 3px red;
+  /* the first two pixels show the horizontal and the vertical distance from the original text */
+  /* the last pixel is to blur the shadow */
+  /* multiple shadows can also be added */
+  text-shadow: 3px 3px 3px red, 5px 5px 5px greenyellow;
+}
+/* by default, shadow will be on bottom and right side, but we can change it by giving negative values */
+.box {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  box-shadow: -10px -10px 15px green, 10px 10px 15px brown;
+  /* by default, the color of box shadow is that of same as of our text */
+  /* but we can also change it */
+  /* the last pixel is to blur the shadow */
+  /* multiple shadows can also be added */
+  color: red;
+}
